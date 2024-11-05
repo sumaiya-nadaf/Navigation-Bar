@@ -23,7 +23,7 @@ Add a demo screenshot here or deploy link if available.
 ## Installation and Setup
 
 1. **Clone the repository**:
-   ```bash
+
    git clone https://github.com/sumaiya-nadaf/Navigation-Bar.git
-   cd ecommerce-navbar
+ 
 
