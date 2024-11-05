@@ -22,8 +22,13 @@ Add a demo screenshot here or deploy link if available.
 
 ## Installation and Setup
 
-1. **Clone the repository**:
+**Clone the repository**:
 
    git clone https://github.com/sumaiya-nadaf/Navigation-Bar.git
+
+
+<b><h2>Navigation Bar Screenshot</h2> </b>
+   
+   <img src="Screenshot 2024-11-05 205059.png">
  
 
