@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>E-Commerce Navigation Bar</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="Nav.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- ################################################ Topbar Start ######################################################################-->
+    <div class="container-fluid  p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-5 px-5 text-start">
+                <div class="h-100 top-nav-text d-inline-flex align-items-center py-3 me-4">
+                    <marquee behavior="slide" direction="right" scrollamount="5">
+                        <i class="bi bi-megaphone-fill"></i> USE CODE FLORISTACREATION5 - GET 30% DISCOUNT
+                    </marquee>
+                </div>
+            </div>
+            <div class="col-lg-7 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn top-nav-links bg-white  me-1" href=""><i class="bi bi-person-fill"></i> Account </a>
+
+                    <a class="btn  top-nav-links bg-white me-1" href=""><i class="bi bi-heart-fill"></i> Wishlist</a>
+                    <a class="btn top-nav-links bg-white me-1" href=""><i class="bi bi-cart-plus-fill"></i> Cart</a>
+                    <a class="btn top-nav-links bg-white  me-1" href=""><i class="bi bi-person-fill-lock"></i> Admin</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ################################################ Topbar Ends ######################################################################-->
+
+
+<!-- ################################################ Navbar Start ######################################################################-->
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="Logo.png" width="180px" alt="">
+        </a>
+        <div class="h-100 d-inline-flex align-items-center py-3 me-4 hotline">
+            <span><small class=" me-2 hotline-number"><i class="bi bi-telephone-plus-fill"></i> Hotline Number</small>
+                <br><small style="margin-left:20px"> +91 111 222 3333</small></span>
+        </div>
+
+        <div class="input-box">
+            <i class="uil uil-search"></i>
+            <input type="text" placeholder="Search here..." />
+            <button class="button"><i class="bi bi-search-heart-fill"></i></button>
+        </div>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#" class="nav-item nav-link active">Home <i class="bi bi-house-heart-fill"></i></a>
+                <a href="#" class="nav-item nav-link">New Arrivals <i class="bi bi-database-fill-add"></i></a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link ">Decore Categories <i class="bi bi-text-left"></i></a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="#" class="dropdown-item">Decore Objects</a>
+                        <a href="#" class="dropdown-item">Candle + Votives</a>
+                        <a href="#" class="dropdown-item">Falowers Vases</a>
+                        <a href="#" class="dropdown-item">Decorative Mirrors</a>
+                        <a href="#" class="dropdown-item">Table Accents</a>
+                    </div>
+                </div>
+                <a href="#" class="nav-item nav-link">About <i class="bi bi-info-circle"></i></a>
+            </div>
+            <a href="#" class="btn Button-Primary-navbar py-4 px-lg-5 d-none d-lg-block sale">Sale <sup>30%</sup> Off<i
+                    class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+   
+</body>
+
+</html>
